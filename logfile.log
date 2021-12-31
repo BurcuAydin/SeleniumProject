@@ -1,0 +1,498 @@
+2021-12-31 12:07:24,714 INFO  [Log] check()PASSED 
+2021-12-31 12:07:25,388 INFO  [Log] search_product()PASSED 
+2021-12-31 12:07:25,451 INFO  [Log] scroll()PASSED 
+2021-12-31 12:07:29,432 ERROR [Log] click_more_product() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"button[class='o-productMoreContent__btn btn']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 156456cf0d8e753319eff69a68423d08
+*** Element info: {Using=css selector, value=button[class='o-productMoreContent__btn btn']} 
+2021-12-31 12:07:29,978 ERROR [Log] select_product() FAILED : Index: 1, Size: 0 
+2021-12-31 12:07:30,337 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 156456cf0d8e753319eff69a68423d08
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:07:30,343 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.499,00 TL> 
+2021-12-31 12:07:30,388 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 156456cf0d8e753319eff69a68423d08
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:07:30,448 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 156456cf0d8e753319eff69a68423d08
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:11:37,130 INFO  [Log] check()PASSED 
+2021-12-31 12:11:40,417 INFO  [Log] search_product()PASSED 
+2021-12-31 12:11:42,388 INFO  [Log] scroll()PASSED 
+2021-12-31 12:11:43,821 ERROR [Log] click_more_product() FAILED : element click intercepted: Element <button id="moreContentButton" class="o-productMoreContent__btn btn">...</button> is not clickable at point (759, 28). Other element would receive the click: <div class="o-productList__top">...</div>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 444ba1719b82cc91bce782ae5e058edc 
+2021-12-31 12:11:43,893 ERROR [Log] select_product() FAILED : Index: 1, Size: 0 
+2021-12-31 12:11:44,022 ERROR [Log] add_product_to_cart() FAILED, no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 444ba1719b82cc91bce782ae5e058edc
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:11:44,027 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.499,00 TL> 
+2021-12-31 12:11:44,070 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 444ba1719b82cc91bce782ae5e058edc
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:11:44,118 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 444ba1719b82cc91bce782ae5e058edc
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:13:18,248 INFO  [Log] check()PASSED 
+2021-12-31 12:13:22,394 INFO  [Log] search_product()PASSED 
+2021-12-31 12:13:25,005 INFO  [Log] scroll()PASSED 
+2021-12-31 12:13:26,211 ERROR [Log] click_more_product() FAILED : element click intercepted: Element <button id="moreContentButton" class="o-productMoreContent__btn btn">...</button> is not clickable at point (759, 28). Other element would receive the click: <div class="o-productList__top">...</div>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b1d3e07278e527395eb3ec9dc078016 
+2021-12-31 12:13:26,249 ERROR [Log] select_product() FAILED : Index: 1, Size: 0 
+2021-12-31 12:13:26,346 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b1d3e07278e527395eb3ec9dc078016
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:13:26,351 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.499,00 TL> 
+2021-12-31 12:13:26,399 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b1d3e07278e527395eb3ec9dc078016
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:13:26,440 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b1d3e07278e527395eb3ec9dc078016
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:15:24,724 INFO  [Log] check()PASSED 
+2021-12-31 12:15:28,953 INFO  [Log] search_product()PASSED 
+2021-12-31 12:15:32,840 INFO  [Log] scroll()PASSED 
+2021-12-31 12:15:34,019 ERROR [Log] click_more_product() FAILED : element click intercepted: Element <button id="moreContentButton" class="o-productMoreContent__btn btn">...</button> is not clickable at point (759, 28). Other element would receive the click: <div class="o-productList__top">...</div>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1e4316eb911ad512e93f88f1a57ef12 
+2021-12-31 12:15:34,068 ERROR [Log] select_product() FAILED : Index: 1, Size: 0 
+2021-12-31 12:15:34,162 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1e4316eb911ad512e93f88f1a57ef12
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:15:34,168 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.499,00 TL> 
+2021-12-31 12:15:34,211 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1e4316eb911ad512e93f88f1a57ef12
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:15:34,241 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1e4316eb911ad512e93f88f1a57ef12
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:18:13,664 INFO  [Log] check()PASSED 
+2021-12-31 12:18:17,954 INFO  [Log] search_product()PASSED 
+2021-12-31 12:18:21,983 INFO  [Log] scroll()PASSED 
+2021-12-31 12:18:22,342 INFO  [Log] click_more_product()PASSED 
+2021-12-31 12:18:22,400 ERROR [Log] select_product() FAILED : Index: 1, Size: 0 
+2021-12-31 12:18:24,612 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 238399253a06bf286f0e0fe3639faca9
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:18:24,621 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.499,00 TL> 
+2021-12-31 12:18:24,666 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 238399253a06bf286f0e0fe3639faca9
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:18:24,711 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 238399253a06bf286f0e0fe3639faca9
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:33:46,145 INFO  [Log] check()PASSED 
+2021-12-31 12:33:50,262 INFO  [Log] search_product()PASSED 
+2021-12-31 12:33:53,873 INFO  [Log] scroll()PASSED 
+2021-12-31 12:33:54,104 INFO  [Log] click_more_product()PASSED 
+2021-12-31 12:33:54,137 ERROR [Log] select_product() FAILED : bound must be positive 
+2021-12-31 12:33:56,502 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de16d5d4c13aae0b7638c9a4bf5652f4
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:33:56,508 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.499,00 TL> 
+2021-12-31 12:33:56,537 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de16d5d4c13aae0b7638c9a4bf5652f4
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:33:56,589 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de16d5d4c13aae0b7638c9a4bf5652f4
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:40:55,345 INFO  [Log] check()PASSED 
+2021-12-31 12:40:59,667 INFO  [Log] search_product()PASSED 
+2021-12-31 12:41:03,409 INFO  [Log] scroll()PASSED 
+2021-12-31 12:41:03,709 INFO  [Log] click_more_product()PASSED 
+2021-12-31 12:41:05,970 ERROR [Log] select_product() FAILED : element click intercepted: Element <span class="m-productCard__desc">...</span> is not clickable at point (1158, 7). Other element would receive the click: <div data-sticky-header="" class="o-productList__sticky -open">...</div>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f64e38c38443efd9127bc6b50f5850b2 
+2021-12-31 12:41:06,085 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f64e38c38443efd9127bc6b50f5850b2
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:41:06,090 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.499,00 TL> 
+2021-12-31 12:41:06,134 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f64e38c38443efd9127bc6b50f5850b2
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:41:06,181 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f64e38c38443efd9127bc6b50f5850b2
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:43:36,911 INFO  [Log] check()PASSED 
+2021-12-31 12:43:41,164 INFO  [Log] search_product()PASSED 
+2021-12-31 12:43:44,894 INFO  [Log] scroll()PASSED 
+2021-12-31 12:43:45,243 INFO  [Log] click_more_product()PASSED 
+2021-12-31 12:43:47,970 ERROR [Log] select_product() FAILED : element click intercepted: Element <h3 class="m-productCard__title">...</h3> is not clickable at point (758, 8). Other element would receive the click: <div data-sticky-header="" class="o-productList__sticky -open">...</div>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84cd686c811325721cb070f2c149e042 
+2021-12-31 12:43:48,081 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84cd686c811325721cb070f2c149e042
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:43:48,087 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.499,00 TL> 
+2021-12-31 12:43:48,126 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84cd686c811325721cb070f2c149e042
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:43:48,173 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84cd686c811325721cb070f2c149e042
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:45:39,882 INFO  [Log] check()PASSED 
+2021-12-31 12:45:44,031 INFO  [Log] search_product()PASSED 
+2021-12-31 12:45:47,791 INFO  [Log] scroll()PASSED 
+2021-12-31 12:45:51,491 INFO  [Log] click_more_product()PASSED 
+2021-12-31 12:45:55,935 ERROR [Log] select_product() FAILED : null 
+2021-12-31 12:45:56,514 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb5e1c644c5b32299fe5c9b9f5626939
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:45:56,520 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.899,00 TL> 
+2021-12-31 12:45:56,560 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb5e1c644c5b32299fe5c9b9f5626939
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:45:56,608 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb5e1c644c5b32299fe5c9b9f5626939
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:51:02,155 INFO  [Log] check()PASSED 
+2021-12-31 12:51:06,328 INFO  [Log] search_product()PASSED 
+2021-12-31 12:51:10,034 INFO  [Log] scroll()PASSED 
+2021-12-31 12:51:13,801 INFO  [Log] click_more_product()PASSED 
+2021-12-31 12:51:24,188 ERROR [Log] select_product() FAILED : null 
+2021-12-31 12:51:24,557 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#addBasket"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 943043ab3918576fd799f2c76ef23ae5
+*** Element info: {Using=id, value=addBasket} 
+2021-12-31 12:51:24,561 ERROR [Log] compare_price() FAILED : expected: <null> but was: <1.499,00 TL> 
+2021-12-31 12:51:24,612 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 943043ab3918576fd799f2c76ef23ae5
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 12:51:24,659 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 943043ab3918576fd799f2c76ef23ae5
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:53:07,745 INFO  [Log] check()PASSED 
+2021-12-31 12:53:11,944 INFO  [Log] search_product()PASSED 
+2021-12-31 12:53:15,627 INFO  [Log] scroll()PASSED 
+2021-12-31 12:53:19,313 INFO  [Log] click_more_product()PASSED 
+2021-12-31 12:53:23,402 ERROR [Log] select_product() FAILED : null 
+2021-12-31 12:53:24,123 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":".m\-productCard__newPrice"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9025ea05fb8c640cec12b0130847fc33
+*** Element info: {Using=class name, value=m-productCard__newPrice} 
+2021-12-31 12:53:24,129 INFO  [Log] compare_price()PASSED 
+2021-12-31 12:53:24,439 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":".o\-header__userInfo\-\-count"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9025ea05fb8c640cec12b0130847fc33
+*** Element info: {Using=class name, value=o-header__userInfo--count} 
+2021-12-31 12:53:24,485 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9025ea05fb8c640cec12b0130847fc33
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 12:55:31,901 INFO  [Log] check()PASSED 
+2021-12-31 12:55:36,211 INFO  [Log] search_product()PASSED 
+2021-12-31 12:55:39,141 INFO  [Log] scroll()PASSED 
+2021-12-31 12:55:42,971 INFO  [Log] click_more_product()PASSED 
+2021-12-31 12:55:45,914 ERROR [Log] select_product() FAILED : null 
+2021-12-31 12:55:47,319 INFO  [Log] add_product_to_cart()PASSED 
+2021-12-31 12:55:48,262 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":".o\-header__userInfo\-\-count"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64550}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9229bbc9ce409aab293767380ab74888
+*** Element info: {Using=class name, value=o-header__userInfo--count} 
+2021-12-31 12:55:48,269 ERROR [Log] compare_price() FAILED : expected: <679,00 TL> but was: <729,00 TL> 
+2021-12-31 12:55:48,330 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64550}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9229bbc9ce409aab293767380ab74888
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 13:00:28,994 INFO  [Log] check()PASSED 
+2021-12-31 13:00:33,172 INFO  [Log] search_product()PASSED 
+2021-12-31 13:00:36,741 INFO  [Log] scroll()PASSED 
+2021-12-31 13:00:40,571 INFO  [Log] click_more_product()PASSED 
+2021-12-31 13:00:41,807 ERROR [Log] select_product() FAILED : element click intercepted: Element <span class="m-productCard__desc">...</span> is not clickable at point (358, 7). Other element would receive the click: <div data-sticky-header="" class="o-productList__sticky -open">...</div>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 518338622992d74be2a5a4e552c601b9 
+2021-12-31 13:00:41,846 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":".m\-variation__item\ \-criticalStock"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 518338622992d74be2a5a4e552c601b9
+*** Element info: {Using=class name, value=m-variation__item -criticalStock} 
+2021-12-31 13:00:41,893 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#priceNew"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 518338622992d74be2a5a4e552c601b9
+*** Element info: {Using=id, value=priceNew} 
+2021-12-31 13:00:41,896 INFO  [Log] compare_price()PASSED 
+2021-12-31 13:00:41,939 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 518338622992d74be2a5a4e552c601b9
+*** Element info: {Using=id, value=quantitySelect0} 
+2021-12-31 13:01:38,440 INFO  [Log] check()PASSED 
+2021-12-31 13:01:42,618 INFO  [Log] search_product()PASSED 
+2021-12-31 13:01:46,192 INFO  [Log] scroll()PASSED 
+2021-12-31 13:01:49,890 INFO  [Log] click_more_product()PASSED 
+2021-12-31 13:01:53,004 ERROR [Log] select_product() FAILED : null 
+2021-12-31 13:01:53,474 ERROR [Log] add_product_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":".m\-variation__item\ \-criticalStock"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d8ccaa138070e969ec643e669f46dc7
+*** Element info: {Using=class name, value=m-variation__item -criticalStock} 
+2021-12-31 13:01:53,712 ERROR [Log] go_to_cart() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":".o\-header__userInfo\-\-count"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d8ccaa138070e969ec643e669f46dc7
+*** Element info: {Using=class name, value=o-header__userInfo--count} 
+2021-12-31 13:01:53,719 ERROR [Log] compare_price() FAILED : expected: <1.699,00 TL> but was: <null> 
+2021-12-31 13:01:53,766 ERROR [Log] product_up() FAILED : no such element: Unable to locate element: {"method":"css selector","selector":"#quantitySelect0"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5BAO4A8L', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\burcu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d8ccaa138070e969ec643e669f46dc7
+*** Element info: {Using=id, value=quantitySelect0} 
